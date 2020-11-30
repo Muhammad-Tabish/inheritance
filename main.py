@@ -14,4 +14,6 @@ class working_student (student):
 
 
 rolf = working_student ('tab', 'waves', 19555)
+rolf.marks.append(95)
+rolf.marks.append(100)
 print(rolf.salary)
