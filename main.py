@@ -17,3 +17,7 @@ rolf = working_student ('tab', 'waves', 19555)
 rolf.marks.append(95)
 rolf.marks.append(100)
 print(rolf.salary)
+print(rolf.name)
+print(rolf.school)
+
+print(f"my name is {rolf.name} i am from {rolf.school}school. i got {rolf.average()} marks in final year. my salary is {rolf.salary}")
